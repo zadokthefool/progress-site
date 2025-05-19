@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  margin-top: 20px;
+  height: 90px;
+}
+
+.getInvolvedButton {
+  background-color: #6c51e2;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 15px;
+  padding: 10px 20px;
+  border: 2px solid #6c51e2;
+  border-radius: 5px;
+  cursor: pointer;
+
+  /* Manage changing brightness transitions */
+  transition: background-color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  -moz-transition: background-color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out;
+}
+
+.getInvolvedButton:hover {
+  background-color: #ffffff;
+  color: #6c51e2;
+
+  /* Manage changing brightness transitions */
+  transition: background-color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  -moz-transition: background-color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out;
+}

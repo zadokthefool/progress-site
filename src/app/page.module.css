@@ -1,0 +1,84 @@
+.pageContent {
+  padding: 50px 60px;
+}
+
+.heroMessage {
+  font-size: 70px;
+  line-height: 80px;
+  font-weight: 800;
+  margin-bottom: 20px;
+
+  span {
+    color: #6c51e2;
+  }
+}
+
+.introMessage {
+  font-size: 22px;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+
+.left {
+  color: #ffffff;
+  font-weight: 600;
+  background-color: #e4003b;
+  padding: 2px 5px;
+}
+
+.right {
+  color: #ffffff;
+  font-weight: 600;
+  background-color: #00aeef;
+  padding: 2px 5px;
+}
+
+.exploreMessage {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.exploreTitle {
+  font-size: 50px;
+  display: flex;
+  font-weight: 800;
+  justify-content: center;
+}
+
+.exploreButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  button {
+    background-color: #6c51e2;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: 2px solid #6c51e2;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+
+    /* Manage changing brightness transitions */
+    transition: background-color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    -moz-transition: background-color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out;
+    -o-transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+      background-color: #ffffff;
+      color: #6c51e2;
+
+      /* Manage changing brightness transitions */
+      transition: background-color 0.2s ease-in-out;
+      -webkit-transition: background-color 0.2s ease-in-out;
+      -moz-transition: background-color 0.2s ease-in-out;
+      -ms-transition: background-color 0.2s ease-in-out;
+      -o-transition: background-color 0.2s ease-in-out;
+    }
+  }
+}

@@ -1,17 +1,29 @@
 This is a [Next.js](https://nextjs.org) project
 
-## Getting Started
+## Install bun
 
-First, run the development server:
+You may need to install bun:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# macOS - terminal
+curl -fsSL https://bun.sh/install | bash
+
+# windows - powershell
+powershell -c "irm bun.sh/install.ps1 | iex"
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Getting Started
+
+First, clone the repo.
+
+Second, open terminal at the root folder.
+
+Third:
+
+```bash
+bun install
+# then
+bun run dev
+```
+
+Open one of the resulting links shown in the terminal: local or network. Normally port 3000.

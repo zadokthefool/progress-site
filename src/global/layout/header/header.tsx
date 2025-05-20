@@ -8,7 +8,7 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ isGetInvolved = false }) => {
   return (
-    <header className={styles.header}>
+    <div className={styles.header}>
       <Link href="/">
         <Logo />
       </Link>
@@ -17,7 +17,7 @@ const Header: React.FC<HeaderProps> = ({ isGetInvolved = false }) => {
           <button className={styles.getInvolvedButton}>Get Involved</button>
         </Link>
       )}
-    </header>
+    </div>
   );
 };
 

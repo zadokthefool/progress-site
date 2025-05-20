@@ -1,13 +1,14 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --font-montserrat: "Montserrat", sans-serif;
+  --global-font: "Montserrat", sans-serif;
 }
 
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -21,7 +22,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: var(--font-montserrat);
+  font-family: var(--global-font);
 }
 
 a {
@@ -29,9 +30,9 @@ a {
   text-decoration: none;
 }
 
-.layout-container {
+.page-content {
   max-width: 1200px; /* You can adjust this as needed */
   margin: 0 auto; /* Center horizontally */
-  padding: 0 1rem; /* Optional: prevent touching edges on small screens */
+  padding: 50px 90px;
   width: 100%;
 }

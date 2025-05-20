@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { ThemeRegistry } from "./theme/theme-registry";
 import { Montserrat } from "next/font/google";
+import { Header } from "@layout";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -10,7 +10,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "PROGRESS",
+  title: "Progress",
   description: "Progress party site",
 };
 
@@ -22,9 +22,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${montserrat.variable} font-montserrat`}>
-        <div className="layout-container">
-          <ThemeRegistry>{children}</ThemeRegistry>
-        </div>
+        <Header />
+        <div className="page-content">{children}</div>
       </body>
     </html>
   );
